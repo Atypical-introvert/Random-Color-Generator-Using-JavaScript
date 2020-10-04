@@ -1,0 +1,80 @@
+body {
+  background-color: #000;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  color: white;
+  margin: 5%;
+}
+.btn {
+  margin-top: 10vh;
+  cursor: pointer;
+  transition: all 0.7s ease;
+  margin-left: 0;
+}
+.btn:hover {
+  background-color: royalblue;
+}
+nav {
+  position: relative;
+  text-align: center;
+  color: #ff1d58;
+  padding: 0;
+  box-sizing: content-box;
+}
+ul {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 10%;
+  padding: 0%;
+  display: flex;
+}
+ul li {
+  list-style: none;
+}
+ul li a {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background: #f1f1f1;
+  display: block;
+  text-align: center;
+  margin: 0 10px;
+  border-radius: 50%;
+  padding: 6px;
+  box-sizing: border-box;
+  text-decoration: none;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+  transition: 0.7s;
+}
+ul li a:hover {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+ul li a .fa {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: linear-gradient(0deg, #fff, #ddd);
+  border-radius: 50%;
+  line-height: calc(60px - 12px);
+  font-size: 24px;
+  color: #262626;
+  transition: 0.7s;
+}
+ul li:nth-child(2) a:hover .fa {
+  color: #dbe1e6;
+  background-color: #262626;
+}
+ul li:nth-child(1) a:hover .fa {
+  color: #2e0003;
+}
+ul li:nth-child(3) a:hover .fa {
+  color: #e4405f;
+}
+ul li:nth-child(4) a:hover .fa {
+  color: #55acee;
+}
